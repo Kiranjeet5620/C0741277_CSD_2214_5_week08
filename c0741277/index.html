@@ -9,13 +9,23 @@
     <script>
         /*KIRANJEET KAUR-C0741277
          * Gaganpreet Singh Sidhu-C0703141*/
+        //CHALLENEGE-1
         var sum = 0;
         for(i=1109;i>=119;i-=11){
             sum=sum+i;
         }
         document.write(sum);
-    </script>
+  
+        //CHALLENGE-2
+        var number = prompt("enter the number from where you want to start");
+        var stepdown = prompt("enter the step down number");
+        var final = prompt("enter the number where you want to stop");
 
+        for (i = number; i >= final; i -= stepdown) {
+            sum += i;
+        }
+    </script>
+    <button type="button" onclick="alert(sum)">Add</button>
 
 
    <!--<script>
